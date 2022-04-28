@@ -60,3 +60,23 @@ ul li{
     
     font-weight: 600;
 }
+
+.social-icon li{
+    display: inline-block;
+
+    &.grow {
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+
+}
+
+li img{
+    margin: 2px;
+    height: 30px;
+    width: 30px;  
+      
+}
